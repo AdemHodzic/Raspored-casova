@@ -1,0 +1,58 @@
+<ul>
+    {{# each arr as |val|}}
+        <div class="citav">
+            <li class="dan">{{ this.dan }}</li>
+            <ol class="casovi">
+                
+                {{# if this.prvi}}
+                    <li>{{this.prvi}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.drugi}}
+                    <li>{{this.drugi}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.treci}}
+                    <li>{{this.treci}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.cetvrti}}
+                    <li>{{this.cetvrti}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.peti}}
+                    <li>{{this.peti}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.sesti}}
+                    <li>{{this.sesti}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.sedmi}}
+                    <li>{{this.sedmi}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+
+                {{# if this.osmi}}
+                    <li>{{this.osmi}}</li>
+                {{else}}
+                    <li class="slobodan">Slobodan</li>
+                {{/if}}
+            </ol>
+        </div>
+    {{/each}}
+</ul>
+

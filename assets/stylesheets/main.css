@@ -1,0 +1,59 @@
+
+body{
+    width: 100%;
+    background-color: #6b7a8f;
+}
+
+.apiBtn{
+    width: 32em;
+    height: 15rem;
+    color: #000;
+    background-color: #f47b18;
+    font-weight: 1000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0.25rem 0.25rem 0.125rem #bc5b0b;
+}
+
+.citav{
+    display: inline-block;
+    margin: 1rem;
+    background-color: slateblue;
+}
+
+.dan{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    list-style: none;
+    color: #dcc7aa;
+}
+
+ul{
+    display: inline-block;
+    
+}
+
+li{
+    margin:1rem;
+    color: #f7c331;
+}
+
+.slobodan{
+    color: #f7882f;
+}
+
+footer{
+    width: 100%;
+    background-color: #586372;
+    position: absolute;
+    top: 100%;
+    transform: translate(0%,-100%);
+}
+
+.footerContent{
+    color: #bbb;
+}
